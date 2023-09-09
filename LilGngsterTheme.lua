@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Project King'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0b0b0b","AccentColor":"a390d9","BackgroundColor":"141212","OutlineColor":"000000"}') },
+		['Project King'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0b0b0b","AccentColor":"a390d9","BackgroundColor":"0c0c0c","OutlineColor":"000000"}') },
 		['Burn Hub'] 			= { 2, httpService:JSONDecode('{"FontColor":"ff8900","MainColor":"000000","AccentColor":"ff6b00","BackgroundColor":"000000","OutlineColor":"000000"}') },
 		['Artic.GG']		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"131313","AccentColor":"ffffff","BackgroundColor":"111113","OutlineColor":"1c1c1c"}') },
 		['Jester'] 			= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
